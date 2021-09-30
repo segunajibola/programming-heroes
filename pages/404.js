@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 const NotFound = () => {
 
@@ -10,7 +11,7 @@ const NotFound = () => {
         setTimeout(() => {
             router.push("/")
         }, 3000)
-    }, []);
+    }, [router]);
 
     const [count, setCount] = useState(3);
 

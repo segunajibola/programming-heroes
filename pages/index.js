@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>HomePage</h1>
         <p className={styles.text}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius illum necessitatibus quasi laudantium vitae. Ab sapiente magni, quas itaque, culpa error, consequuntur voluptatum eum est in deserunt deleniti quaerat maiores.</p>
         <p className={styles.text}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius illum necessitatibus quasi laudantium vitae. Ab sapiente magni, quas itaque, culpa error, consequuntur voluptatum eum est in deserunt deleniti quaerat maiores.</p>
-        <Link href="/heroes"><a className={styles.btn}>See Programming Heroes</a></Link>
+        <Link href="/heroes"><a className={styles.btn}>See Programming Heroes</a></Link> 
       </div>
     </>
   )
